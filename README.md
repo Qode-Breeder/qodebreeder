@@ -25,12 +25,10 @@ from randomChoice import random_value
 # Example usage
 array = ["rays", "sun", "moon", "earth"]
 tuple_obj = ("apple", "banana", "cherry")
-set_obj = {"apple", "banana", "cherry"}
 dict_obj = {1: "house", 5: "road", 8: "shop", 3: "store"}
 
 print(random_element(array))      # Random element from array
 print(random_element(tuple_obj))  # Random element from tuple
-print(random_element(set_obj))    # Random element from set
 print(random_element(dict_obj))   # Random value from dict
 
 ```
